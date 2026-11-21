@@ -460,11 +460,12 @@ window.gfResults=async function(){
   grid.innerHTML='<p style="text-align:center;color:#999;grid-column:1/-1;padding:32px">Lade Empfehlungen…</p>';
   document.getElementById('gf-sub4').textContent=(age==='welpe'?'Welpe · ':'Kein Welpe · ')+(budget==='unter-20'?'Bis 20 €':budget==='20-50'?'20 – 50 €':'Über 50 €')+' · '+cats.map(function(c){return CNAMES[c]}).join(', ');
   try{
-    var res=await fetch('/wp-json/wp/v2/posts?categories='+cats.join(',')+'&per_page=100&_fields=id,title,link,categories&lang=de');
+    var res=await fetch('/recommendations.json');
+    if(!res.ok) throw new Error('Recommendations could not be loaded');
     var posts=await res.json();
     var filtered=posts.filter(function(p){var m=META[p.id];return m&&m.a.indexOf(age)!==-1&&m.p===budget;});
     if(!filtered.length){grid.innerHTML='<div class="gf-no-res"><p>Keine exakten Treffer in dieser Kombination.</p><p style="margin-top:10px;font-size:13px">Schau dir alle '+cats.map(function(c){return '<a href="/category/'+CSLUGS[c]+'/" style="color:#111">'+CNAMES[c]+'</a>'}).join(', ')+' an.</p></div>';return;}
-    grid.innerHTML=filtered.map(function(p){var cn=p.categories.filter(function(id){return cats.indexOf(String(id))!==-1}).map(function(id){return CNAMES[id]}).join(', ');return '<a class="gf-card" href="'+p.link+'"><div class="gf-card-cat">'+cn+'</div><div class="gf-card-title">'+p.title.rendered+'</div></a>';}).join('');
+    grid.innerHTML=filtered.map(function(p){var cn=p.categories.filter(function(id){return cats.indexOf(String(id))!==-1}).map(function(id){return CNAMES[id]}).join(', ');var postPath=new URL(p.link,window.location.origin).pathname;return '<a class="gf-card" href="'+postPath+'"><div class="gf-card-cat">'+cn+'</div><div class="gf-card-title">'+p.title.rendered+'</div></a>';}).join('');
   }catch(e){grid.innerHTML='<p class="gf-no-res">Fehler beim Laden.</p>';}
 };
 window.gfReset=function(){age='';budget='';cats=[];document.querySelectorAll('.gf-btn').forEach(function(b){b.classList.remove('sel')});document.getElementById('gf-show').disabled=true;gfStep(1);};
