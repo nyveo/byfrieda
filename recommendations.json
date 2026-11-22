@@ -1,16 +1,5 @@
 [
     {
-        "id":  523,
-        "link":  "https://byfrieda.com/anny-x-fun-brustgeschirr-ergonomisch-rueckenschonend-groesse-xs/",
-        "title":  {
-                      "rendered":  "anny-x Fun Brustgeschirr – Ergonomisch \u0026#038; rückenschonend (Größe XS)"
-                  },
-        "categories":  [
-                           12,
-                           35
-                       ]
-    },
-    {
         "id":  485,
         "link":  "https://byfrieda.com/dokas-huhnerbrust-snack-100-huhn-glutenfrei-perfekt-furs-training/",
         "title":  {
@@ -19,72 +8,6 @@
         "categories":  [
                            12,
                            31
-                       ]
-    },
-    {
-        "id":  213,
-        "link":  "https://byfrieda.com/glueckstier-hundeshampoo/",
-        "title":  {
-                      "rendered":  "Glückstier Hundeshampoo – Vegan \u0026#038; sanft für alle Felltypen"
-                  },
-        "categories":  [
-                           12,
-                           39
-                       ]
-    },
-    {
-        "id":  211,
-        "link":  "https://byfrieda.com/haustier-transporttasche-kabine/",
-        "title":  {
-                      "rendered":  "Haustier-Transporttasche – Kabinengepäck für Hunde"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  209,
-        "link":  "https://byfrieda.com/rabbitgoo-hundegeschirr/",
-        "title":  {
-                      "rendered":  "rabbitgoo Hundegeschirr – Kein Ziehen, viele Farben"
-                  },
-        "categories":  [
-                           12,
-                           35
-                       ]
-    },
-    {
-        "id":  102,
-        "link":  "https://byfrieda.com/heiniger-saphir-die-profi-schermaschine-fuer-pudel-pudelmixe/",
-        "title":  {
-                      "rendered":  "Heiniger Saphir — Die Profi-Schermaschine für Pudel \u0026#038; Pudelmixe"
-                  },
-        "categories":  [
-                           12,
-                           39
-                       ]
-    },
-    {
-        "id":  47,
-        "link":  "https://byfrieda.com/petsfit-premium-falt-rucksack/",
-        "title":  {
-                      "rendered":  "Petsfit Premium Falt-Rucksack"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  297,
-        "link":  "https://byfrieda.com/william-walker-halsband-sky-leder-in-hellblau/",
-        "title":  {
-                      "rendered":  "William Walker Sky Set – Leder-Halsband \u0026#038; Leine in Hellblau"
-                  },
-        "categories":  [
-                           12,
-                           35
                        ]
     },
     {
@@ -99,127 +22,6 @@
                        ]
     },
     {
-        "id":  48,
-        "link":  "https://byfrieda.com/rudelkonig-hunde-sicherheitsgurt/",
-        "title":  {
-                      "rendered":  "Rudelkönig Hunde-Sicherheitsgurt"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  45,
-        "link":  "https://byfrieda.com/rudelkonig-kofferraum-schutzdecke/",
-        "title":  {
-                      "rendered":  "Rudelkönig Kofferraum-Schutzdecke"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  43,
-        "link":  "https://byfrieda.com/gemek-professionelles-schererset-4-teilig/",
-        "title":  {
-                      "rendered":  "GEMEK Professionelles Schererset 4-teilig"
-                  },
-        "categories":  [
-                           12,
-                           39
-                       ]
-    },
-    {
-        "id":  44,
-        "link":  "https://byfrieda.com/moki-bear-soft-brush-pudel-locken/",
-        "title":  {
-                      "rendered":  "Moki Bear Soft Brush – Pudel \u0026#038; Locken"
-                  },
-        "categories":  [
-                           12,
-                           39
-                       ]
-    },
-    {
-        "id":  40,
-        "link":  "https://byfrieda.com/vivaglory-hundeschwimmweste/",
-        "title":  {
-                      "rendered":  "VIVAGLORY Hundeschwimmweste"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  41,
-        "link":  "https://byfrieda.com/wahre-tierliebe-fluffy-wolke-hundebett/",
-        "title":  {
-                      "rendered":  "Wahre Tierliebe Fluffy Wolke Hundebett"
-                  },
-        "categories":  [
-                           12,
-                           37
-                       ]
-    },
-    {
-        "id":  42,
-        "link":  "https://byfrieda.com/candure-krallenschere-mit-sicherheitsstopp/",
-        "title":  {
-                      "rendered":  "Candure Krallenschere mit Sicherheitsstopp"
-                  },
-        "categories":  [
-                           12,
-                           39
-                       ]
-    },
-    {
-        "id":  38,
-        "link":  "https://byfrieda.com/emwel-hundetrinkflasche-550ml/",
-        "title":  {
-                      "rendered":  "Emwel Hundetrinkflasche 550ml"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
-        "id":  37,
-        "link":  "https://byfrieda.com/pet-room-jogging-leine-hands-free/",
-        "title":  {
-                      "rendered":  "Pet Room Jogging-Leine – Hands Free"
-                  },
-        "categories":  [
-                           12,
-                           35
-                       ]
-    },
-    {
-        "id":  36,
-        "link":  "https://byfrieda.com/toozey-schleppleine/",
-        "title":  {
-                      "rendered":  "Toozey Schleppleine"
-                  },
-        "categories":  [
-                           12,
-                           35
-                       ]
-    },
-    {
-        "id":  210,
-        "link":  "https://byfrieda.com/amazon-basics-kotbeutel/",
-        "title":  {
-                      "rendered":  "Amazon Basics Kotbeutel – Mit Spender und Leinen-Clip"
-                  },
-        "categories":  [
-                           12,
-                           41
-                       ]
-    },
-    {
         "id":  32,
         "link":  "https://byfrieda.com/mervela-kase-kauknochen/",
         "title":  {
@@ -228,17 +30,6 @@
         "categories":  [
                            12,
                            31
-                       ]
-    },
-    {
-        "id":  33,
-        "link":  "https://byfrieda.com/dshzhm-intelligenzspielzeug-level-3/",
-        "title":  {
-                      "rendered":  "DSHZHM Intelligenzspielzeug Level 3"
-                  },
-        "categories":  [
-                           12,
-                           33
                        ]
     },
     {
@@ -264,6 +55,237 @@
                        ]
     },
     {
+        "id":  479,
+        "link":  "https://byfrieda.com/fonpoo-seilspielzeug-set-6-baumwollseile-fur-kleine-mittelgrose-hunde/",
+        "title":  {
+                      "rendered":  "Mapille Seilspielzeug-Set – 6 Baumwoll-Hanfseile für Welpen \u0026#038; kleine Hunde"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  425,
+        "link":  "https://byfrieda.com/briliantwerk-schnuffeldecke-10-verstecke-3-schwierigkeitsstufen/",
+        "title":  {
+                      "rendered":  "Briliantwerk Schnüffeldecke – 10 Verstecke, 3 Schwierigkeitsstufen"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  417,
+        "link":  "https://byfrieda.com/wahre-tierliebe-fluffy-cloud-hundekissen/",
+        "title":  {
+                      "rendered":  "Wahre Tierliebe Fluffy Cloud Hundekissen"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  214,
+        "link":  "https://byfrieda.com/lionto-hundebox-welpen/",
+        "title":  {
+                      "rendered":  "lionto Faltbare Hundebox – Perfekt für Welpen"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  207,
+        "link":  "https://byfrieda.com/coomazy-schleckmatte/",
+        "title":  {
+                      "rendered":  "Coomazy Schleckmatte – Ruhe durch Lecken"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  212,
+        "link":  "https://byfrieda.com/trixie-poker-box-2/",
+        "title":  {
+                      "rendered":  "Trixie Poker Box 2 – Intelligenzspiel für Fortgeschrittene"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  206,
+        "link":  "https://byfrieda.com/kong-classic/",
+        "title":  {
+                      "rendered":  "KONG Classic – Der unverwüstliche Klassiker"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  35,
+        "link":  "https://byfrieda.com/haokey-turklingel-set-fur-hunde/",
+        "title":  {
+                      "rendered":  "Haokey Türklingel-Set für Hunde"
+                  },
+        "categories":  [
+                           12,
+                           47
+                       ]
+    },
+    {
+        "id":  209,
+        "link":  "https://byfrieda.com/rabbitgoo-hundegeschirr/",
+        "title":  {
+                      "rendered":  "rabbitgoo Hundegeschirr – Kein Ziehen, viele Farben"
+                  },
+        "categories":  [
+                           12,
+                           35
+                       ]
+    },
+    {
+        "id":  297,
+        "link":  "https://byfrieda.com/william-walker-halsband-sky-leder-in-hellblau/",
+        "title":  {
+                      "rendered":  "William Walker Sky Set – Leder-Halsband \u0026#038; Leine in Hellblau"
+                  },
+        "categories":  [
+                           12,
+                           35
+                       ]
+    },
+    {
+        "id":  37,
+        "link":  "https://byfrieda.com/pet-room-jogging-leine-hands-free/",
+        "title":  {
+                      "rendered":  "Pet Room Jogging-Leine – Hands Free"
+                  },
+        "categories":  [
+                           12,
+                           35
+                       ]
+    },
+    {
+        "id":  36,
+        "link":  "https://byfrieda.com/toozey-schleppleine/",
+        "title":  {
+                      "rendered":  "Toozey Schleppleine"
+                  },
+        "categories":  [
+                           12,
+                           35
+                       ]
+    },
+    {
+        "id":  465,
+        "link":  "https://byfrieda.com/personalisiertes-halstuch-fur-hunde-light-pink/",
+        "title":  {
+                      "rendered":  "Personalisiertes Halstuch für Hunde – Light Pink"
+                  },
+        "categories":  [
+                           12,
+                           45
+                       ]
+    },
+    {
+        "id":  250,
+        "link":  "https://byfrieda.com/next-weihnachtspullover-mit-hunde-motiv-matching-family-set/",
+        "title":  {
+                      "rendered":  "Next Weihnachtspullover – Matching Set für Mensch \u0026#038; Hund"
+                  },
+        "categories":  [
+                           12,
+                           45
+                       ]
+    },
+    {
+        "id":  39,
+        "link":  "https://byfrieda.com/suoxu-geburtstags-bandana-set/",
+        "title":  {
+                      "rendered":  "SUOXU Geburtstags-Bandana Set"
+                  },
+        "categories":  [
+                           12,
+                           45
+                       ]
+    },
+    {
+        "id":  208,
+        "link":  "https://byfrieda.com/nordic-pure-bachblueten-tropfen/",
+        "title":  {
+                      "rendered":  "Nordic Pure Bachblüten Tropfen – Ruhe für den Silvesterabend"
+                  },
+        "categories":  [
+                           12,
+                           45
+                       ]
+    },
+    {
+        "id":  213,
+        "link":  "https://byfrieda.com/glueckstier-hundeshampoo/",
+        "title":  {
+                      "rendered":  "Glückstier Hundeshampoo – Vegan \u0026#038; sanft für alle Felltypen"
+                  },
+        "categories":  [
+                           12,
+                           39
+                       ]
+    },
+    {
+        "id":  102,
+        "link":  "https://byfrieda.com/heiniger-saphir-die-profi-schermaschine-fuer-pudel-pudelmixe/",
+        "title":  {
+                      "rendered":  "Heiniger Saphir — Die Profi-Schermaschine für Pudel \u0026#038; Pudelmixe"
+                  },
+        "categories":  [
+                           12,
+                           39
+                       ]
+    },
+    {
+        "id":  43,
+        "link":  "https://byfrieda.com/gemek-professionelles-schererset-4-teilig/",
+        "title":  {
+                      "rendered":  "GEMEK Professionelles Schererset 4-teilig"
+                  },
+        "categories":  [
+                           12,
+                           39
+                       ]
+    },
+    {
+        "id":  44,
+        "link":  "https://byfrieda.com/moki-bear-soft-brush-pudel-locken/",
+        "title":  {
+                      "rendered":  "Moki Bear Soft Brush – Pudel \u0026#038; Locken"
+                  },
+        "categories":  [
+                           12,
+                           39
+                       ]
+    },
+    {
+        "id":  42,
+        "link":  "https://byfrieda.com/candure-krallenschere-mit-sicherheitsstopp/",
+        "title":  {
+                      "rendered":  "Candure Krallenschere mit Sicherheitsstopp"
+                  },
+        "categories":  [
+                           12,
+                           39
+                       ]
+    },
+    {
         "id":  469,
         "link":  "https://byfrieda.com/alphazoo-big-paw-ty-pfotenstick-pfotenpflege-gegen-kalte-streusalz/",
         "title":  {
@@ -272,6 +294,83 @@
         "categories":  [
                            12,
                            39
+                       ]
+    },
+    {
+        "id":  211,
+        "link":  "https://byfrieda.com/haustier-transporttasche-kabine/",
+        "title":  {
+                      "rendered":  "Haustier-Transporttasche – Kabinengepäck für Hunde"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  47,
+        "link":  "https://byfrieda.com/petsfit-premium-falt-rucksack/",
+        "title":  {
+                      "rendered":  "Petsfit Premium Falt-Rucksack"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  48,
+        "link":  "https://byfrieda.com/rudelkonig-hunde-sicherheitsgurt/",
+        "title":  {
+                      "rendered":  "Rudelkönig Hunde-Sicherheitsgurt"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  45,
+        "link":  "https://byfrieda.com/rudelkonig-kofferraum-schutzdecke/",
+        "title":  {
+                      "rendered":  "Rudelkönig Kofferraum-Schutzdecke"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  40,
+        "link":  "https://byfrieda.com/vivaglory-hundeschwimmweste/",
+        "title":  {
+                      "rendered":  "VIVAGLORY Hundeschwimmweste"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  38,
+        "link":  "https://byfrieda.com/emwel-hundetrinkflasche-550ml/",
+        "title":  {
+                      "rendered":  "Emwel Hundetrinkflasche 550ml"
+                  },
+        "categories":  [
+                           12,
+                           41
+                       ]
+    },
+    {
+        "id":  210,
+        "link":  "https://byfrieda.com/amazon-basics-kotbeutel/",
+        "title":  {
+                      "rendered":  "Amazon Basics Kotbeutel – Mit Spender und Leinen-Clip"
+                  },
+        "categories":  [
+                           12,
+                           41
                        ]
     }
 ]

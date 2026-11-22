@@ -437,8 +437,8 @@ img.post-top-featured[src*="reisetasche-flug"] {
 (function(){
 var age='',budget='',cats=[];
 var META={30:{p:'unter-20',a:['welpe','junghund']},31:{p:'unter-20',a:['welpe','junghund']},32:{p:'unter-20',a:['welpe','junghund']},33:{p:'20-50',a:['welpe','junghund']},34:{p:'unter-20',a:['welpe','junghund']},35:{p:'unter-20',a:['welpe','junghund']},36:{p:'unter-20',a:['welpe','junghund']},37:{p:'20-50',a:['junghund']},38:{p:'unter-20',a:['welpe','junghund']},39:{p:'unter-20',a:['welpe','junghund']},40:{p:'20-50',a:['junghund']},41:{p:'20-50',a:['welpe','junghund']},42:{p:'unter-20',a:['welpe','junghund']},43:{p:'20-50',a:['welpe','junghund']},44:{p:'unter-20',a:['welpe','junghund']},45:{p:'20-50',a:['welpe','junghund']},46:{p:'20-50',a:['welpe','junghund']},47:{p:'20-50',a:['welpe','junghund']},48:{p:'20-50',a:['junghund']},102:{p:'ueber-50',a:['welpe','junghund']},18:{p:'ueber-50',a:['welpe','junghund']},16:{p:'ueber-50',a:['welpe','junghund']},485:{p:'20-50',a:['welpe','junghund']},479:{p:'unter-20',a:['welpe','junghund']},465:{p:'unter-20',a:['welpe','junghund']},425:{p:'20-50',a:['welpe','junghund']},417:{p:'20-50',a:['welpe','junghund']},213:{p:'unter-20',a:['welpe','junghund']},211:{p:'20-50',a:['welpe','junghund']},209:{p:'20-50',a:['junghund']},214:{p:'20-50',a:['welpe','junghund']},207:{p:'unter-20',a:['welpe','junghund']},297:{p:'ueber-50',a:['junghund']},250:{p:'ueber-50',a:['welpe','junghund']},215:{p:'20-50',a:['welpe','junghund']},212:{p:'unter-20',a:['junghund']},206:{p:'unter-20',a:['welpe','junghund']},210:{p:'20-50',a:['welpe','junghund']},469:{p:'unter-20',a:['welpe','junghund']},208:{p:'unter-20',a:['welpe','junghund']}};
-var CNAMES={31:'Ernährung',33:'Spielzeug',35:'Leinen & Halsbänder',37:'Komfort',39:'Pflege',41:'Unterwegs'};
-var CSLUGS={31:'ernaehrung',33:'spielzeug',35:'leinen-halsbaender',37:'komfort',39:'pflege',41:'unterwegs'};
+var CNAMES={31:'Ernährung',47:'Spielzeug & Komfort',35:'Leinen & Halsbänder',45:'Besondere Ereignisse',39:'Pflege',41:'Unterwegs'};
+var CSLUGS={31:'ernaehrung',47:'spielzeug-komfort',35:'leinen-halsbaender',45:'besondere-ereignisse',39:'pflege',41:'unterwegs'};
 window.gfStep=function(n){
   document.querySelectorAll('.gf-step').forEach(function(s){s.classList.remove('active')});
   document.getElementById('gf'+n).classList.add('active');
@@ -463,7 +463,7 @@ window.gfResults=async function(){
     var res=await fetch('/recommendations.json');
     if(!res.ok) throw new Error('Recommendations could not be loaded');
     var posts=await res.json();
-    var filtered=posts.filter(function(p){var m=META[p.id];return m&&m.a.indexOf(age)!==-1&&m.p===budget;});
+    var filtered=posts.filter(function(p){var m=META[p.id];return m&&m.a.indexOf(age)!==-1&&m.p===budget&&p.categories.some(function(id){return cats.indexOf(String(id))!==-1;});});
     if(!filtered.length){grid.innerHTML='<div class="gf-no-res"><p>Keine exakten Treffer in dieser Kombination.</p><p style="margin-top:10px;font-size:13px">Schau dir alle '+cats.map(function(c){return '<a href="/category/'+CSLUGS[c]+'/" style="color:#111">'+CNAMES[c]+'</a>'}).join(', ')+' an.</p></div>';return;}
     grid.innerHTML=filtered.map(function(p){var cn=p.categories.filter(function(id){return cats.indexOf(String(id))!==-1}).map(function(id){return CNAMES[id]}).join(', ');var postPath=new URL(p.link,window.location.origin).pathname;return '<a class="gf-card" href="'+postPath+'"><div class="gf-card-cat">'+cn+'</div><div class="gf-card-title">'+p.title.rendered+'</div></a>';}).join('');
   }catch(e){grid.innerHTML='<p class="gf-no-res">Fehler beim Laden.</p>';}
